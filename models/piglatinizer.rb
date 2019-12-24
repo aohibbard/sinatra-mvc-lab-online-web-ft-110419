@@ -1,6 +1,6 @@
 class PigLatinizer 
   attr_accessor :string 
-  def translate(string)
+  def piglatinize(string)
     vowels = %w{a e i o u}
     string.gsub(/(\A|\s)\w+/) do |str|
             str.strip!
